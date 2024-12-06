@@ -25,8 +25,3 @@ def update_ball_velocity(i, xpos, ypos, vx, vy, canvas_width, canvas_height, bal
     # if the ball hits the ceiling or the floor, reverse the vy velocity
     if abs(ypos[i]) > (canvas_height - ball_radius):
         vy[i] = -vy[i]
-
-
-
-
-
